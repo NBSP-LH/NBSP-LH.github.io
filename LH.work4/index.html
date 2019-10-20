@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>衡阳</title>
+<style>
+* {
+  box-sizing: border-box;
+ 
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+ 
+/* 头部标题 */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  background-image: url(img/801.jpg);
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+/* 右侧栏 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: #FAEBD7;
+  width: 100%;
+  padding: 20px;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color: aliceblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #FAEBD7;
+  margin-top: 20px;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>湖南衡阳</h1>
+</div>
+
+<div class="topnav">
+  <a href="历史.html" target="_blank">历史</a>
+  <a href="美食.html" target="_blank">美食</a>
+  <a href="景点.html" target="_blank">景点</a>
+  <a href="https://baike.sogou.com/v179177.htm" style="float:right" target="_blank">其他</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>衡阳介绍</h2>
+      <h5>2019 年 10 月 20日</h5>
+      <div class="fakeimg" style="height:200px;"><img src="img/801.jpg" width="270px" height="150px" />&nbsp;&nbsp;
+      	<img src="img/802.jpg" width="270px" height="150px"/></div>
+      <p>一些介绍...</p>
+      <p>衡阳，为湖南省下辖地级市，是长江中游城市群重要成员，湖南省域副中心城市，
+			湘南地区的政治、经济、军事、文化中心。衡阳下辖5区5县，代管2县级市，
+			总面积15310平方公里，城区横跨湘江，是湖南省以及中南地区重要的交通枢纽之一，</p>
+    </div>
+    <div class="card">
+      <h2>美食</h2>
+      <h5>2019 年 10月 20日</h5>
+      <div class="fakeimg" style="height:200px;"><img src="img/田螺.jpg" width="270px" height="150px"/>&nbsp;&nbsp;
+      	<img src="img/鳝鱼.jpg" width="270px" height="150px"/></div>
+      <p>一些美食...</p>
+      <p></p>
+    </div>
+  </div>
+  
+</div>
+
+<div class="footer">
+  <h2></h2>
+</div>
+
+</body>
+</html>
