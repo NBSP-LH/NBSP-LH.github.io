@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>腾讯首页</title>
+		<style>
+			.top {
+				width: 840px;
+				height: 60px;
+				margin: 0;
+			}
+			
+			.top1 {
+				width: auto;
+				height: 50px;
+				margin: 5px;
+				position: relative;
+				left: 50px;
+				right: 40px;
+			}
+			
+			.top-search {
+				width: 350px;
+				height: 30px;
+				position: relative;
+				left: 400px;
+				top: -43px;
+			}
+			
+			.top-right {
+				width: auto;
+				height: 30px;
+				position: relative;
+				left: 500px;
+				top: -93px;
+			}
+			
+			.daohang {
+				width: 1270px;
+				height: 40px;
+				background-color: blue;
+				margin-top: 5px;
+				border-radius: 5px 5px 5px 5px;
+				margin-left: 50px;
+				position: absolute;
+			}
+			
+			.dao {
+				width: 80px;
+				margin-top: 10px;
+			}
+			
+			.btn1{
+				background-image: url(img/雪碧图1.png);
+				display: block;
+				width: 45px;
+				height: 29px;
+			}
+			.btn1:hover{
+				background-position: -93px 0;
+				background-image:url(img/qq空间1.png);
+			}
+			.btn1:active{
+				background-position: -186px 0;
+			}
+			.btn2{
+				background-image: url(img/雪碧图6.png);
+				display: block;
+				width: 42px;
+				height: 26px;
+			}
+			.btn2:hover{
+				background-position: -33px 0;
+				background-image: url(img/雪碧图7.png);
+			}
+			.btn2:active{
+				background-position: -186px 0;
+			}
+			.contain {
+				width: 1270px;
+				height: 800px;
+				margin-top: 10px;
+				background-color: white;
+			}
+			
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: dodgerblue;
+			}
+			
+			li {
+				height: 40px;
+				float: left;
+				display: inline;
+				display: flex;
+				flex-direction: row;
+			}
+			
+			li a {
+				width: 10px;
+				color: white;
+				text-align: center;
+				display: inline;
+				margin-top: 10px;
+				padding: 15px 20px;
+				text-decoration: none;
+			}
+			
+			li a:active {
+				background-color: #1E90FF;
+			}
+			
+			li a:hover {
+				background-color: whitesmoke;
+			}
+			
+			a {
+				text-decoration: none;
+				color: #000000;
+			}
+			
+			a:hover {
+				color: dodgerblue;
+			}
+			
+			.ad {
+				width: 1200px;
+				height: 59px;
+				position: absolute;
+				left: 56px;
+				top: 150px;
+			}
+			
+			.ad1 {
+				width: 900px;
+				height: 50px;
+				float: left;
+			}
+			
+			.ad2 {
+				width: 100px;
+				height: 60px;
+				float: left;
+				position: absolute;
+				right: 240px;
+			}
+			
+			.nr1 {
+				width: 350px;
+				height: 500px;
+				float: left;
+				position: absolute;
+				left: 56px;
+				top: 213px;
+			}
+			
+			.box {
+				width: 70px;
+				height: 40px;
+				border-bottom: 4px solid #1479d7;
+			}
+			
+			
+			.nr2 {
+				width: 350px;
+				height: 500px;
+				float: left;
+				position: absolute;
+				left: 450px;
+				top: 213px;
+			}
+			
+			.nr3 {
+				width: 420px;
+				height: 500px;
+				float: left;
+				position: absolute;
+				left: 899px;
+				top: 230px;
+			}
+			
+			.liebiao1 {
+				width: 350px;
+				height: 70px;
+				background-color: white;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="top">
+			<div class="top1"><img src="img/腾讯图标.png" height="50px"></div>
+			<div class="top-search">
+				<input type="text" placeholder="搜索.." name="search" style="border-radius: 25px; width: 250px; height: 25px;">
+				<button type="submit" style="border-radius: 25px; height: 30px; width: 80px; background-color: dodgerblue;">搜狗搜索</button>
+			</div>
+			<div class="top-right">
+				<div style="  float: left; position: relative;top: 20px;right: 10px; left: 600px;">
+					<a class="btn1" href="http://www.qq.com" target="_blank"></a>
+				</div>
+				<div style="  float: left; position: relative;top: 25px;right: 10px; left: 600px;">
+					<a class="btn2" href="http://www.qq.com" target="_blank"></a></div>
+				<div style="  float: left; position: relative;top: 20px;right: 10px; left: 600px;">
+					<button type="submit" style="position: relative;top: ;">登录</button></div>
+
+			</div>
+		</div>
+		<div class="contain">
+			<div class="daohang">
+				<ul>
+					<li>
+						<div class="dao">
+							<a href="#">新闻</a>
+						</div>
+						<div class="dao">
+							<a href="#">视频</a>
+						</div>
+						<div class="dao">
+							<a href="#">图片</a>
+						</div>
+						<div class="dao">
+							<a href="#">军事</a>
+						</div>
+						<div class="dao">
+							<a href="#">体育</a>
+						</div>
+						<div class="dao">
+							<a href="#">NBA</a>
+						</div>
+						<div class="dao">
+							<a href="#">娱乐</a>
+						</div>
+						<div class="dao">
+							<a href="#">科技</a>
+						</div>
+						<div class="dao">
+							<a href="#">时尚</a>
+						</div>
+						<div class="dao">
+							<a href="#">汽车</a>
+						</div>
+						<div class="dao">
+							<a href="#">房产</a>
+						</div>
+						<div class="dao">
+							<a href="#">教育</a>
+						</div>
+						<div class="dao">
+							<a href="#">文化</a>
+						</div>
+						<div class="dao">
+							<a href="#">游戏</a>
+						</div>
+						<div class="dao">
+							<a href="#">星座</a>
+						</div>
+						<div class="dao">
+							<a href="#">更多</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="ad">
+				<div class="ad1">
+					<img src="img/ad3.png" width="750px" />
+				</div>
+				<div class="ad2">
+					<img src="img/ad4.png" width="400px" />
+				</div>
+			</div>
+			<div class="nr1">
+				<div class="liebiao1">
+					<div class="box">
+						<a href="#">
+							<h1>要闻</h1></a>
+					</div>
+					<a href="#">
+						<h3>再到希腊，习近平为何用了这个词？</h3>
+					</a>
+					<a href="#">
+						<h4 style="height: 20px;">微视频《大江奔腾》 </a>
+						<a href="#">理上网来</a></h4>
+						<a href="#">
+							<h5><font face="楷体">希腊各界热议习近平署名文章</a>
+						<a href="#">共建开放共享的世界经济 </br></a>
+						<a href="#"><br>这才是真正的“双十一”！</a>
+						<a href="#">人民空军，生日快乐！</br></a>
+						<a href="#"><br>引领民营经济实现新飞跃</a>
+						<a href="#"> 各地助推民营经济高质量发展</br></a>
+						<a href="#"><br>进博会闭幕：共赴“东方之约”同享“中国机遇” </a>
+						<a href="#">进博会</br></a>
+						<a href="#"><br>“美国欢迎中国学生” </a>
+						<a href="#">美驻华大使这篇署名文章释放啥信号</br></a>
+						<a href="#"><br>希望美方把“欢迎中国学生”真正落到实处</br></font></h5></a>
+						<a href="#"></a>
+				</div>
+			</div>
+			<div class="nr2">
+				<div class="liebiao1">
+					<div class="box" style="width: 150px;">
+						<a href="#">
+							<h1>今日话题</h1></a>
+					</div>
+					<a href="#">
+						<h3>第二届进博会，亮点有这些</h3>
+					</a>
+					<a href="#">
+						<h4 style="height: 20px;">人民日报评论|  </a>
+						<a href="#">让教师更好聚焦主业</a></h4>
+						<a href="#">
+							<h5><font face="楷体">新京报| </a>
+						<a href="#">悬赏1.8亿求解技术难题，也是为知识"市场估价"</br></a>
+						<a href="#"><br>棱镜| </a>
+						<a href="#">中国最大二手农机村的流量时代</br></a>
+						<a href="#"><br>深网| </a>
+						<a href="#"> “老赖”名单上的创业者们值得原谅吗？</br></a>
+						<a href="#"><br>谷雨| </a>
+						<a href="#"> 28岁上海金融女硬核抗癌380天 自救热文获医生点</br></a>
+						<a href="#"><br>腾讯大家|</a>
+						<a href="#"> 田忌赛马的故事，能证明中国人自古不守规则？ </br></a>
+						<a href="#"><br></br></font></h5></a>
+						<a href="#"></a>
+				</div>
+			</div>
+			<div class="nr3">
+				<img src="img/截屏2.png" width="420px" height="500px" />
+			</div>
+		</div>
+
+	</body>
+
+</html>
